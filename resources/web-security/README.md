@@ -1,42 +1,47 @@
-# 🌐 Web Security Resources
+# Web Security
 
-Web exploitation is one of the most common CTF categories and directly maps to real-world vulnerabilities.
+Web exploitation is one of the most prevalent CTF categories and maps directly to real-world vulnerabilities.
 
 ---
 
-## 🟢 Beginner Resources
+## Beginner Resources
 
-### Labs & Practice
+### Labs and Practice
+
 | Platform | Link |
 |----------|------|
 | PortSwigger Web Security Academy | https://portswigger.net/web-security |
 | TryHackMe Web Fundamentals | https://tryhackme.com |
 | PicoCTF Web Challenges | https://play.picoctf.org |
 
-### Vulnerable Apps to Practice On
-| App | Link |
-|-----|------|
-| DVWA (Damn Vulnerable Web App) | https://github.com/digininja/DVWA |
+### Deliberately Vulnerable Applications
+
+| Application | Link |
+|-------------|------|
+| DVWA (Damn Vulnerable Web Application) | https://github.com/digininja/DVWA |
 | OWASP Juice Shop | https://owasp.org/www-project-juice-shop/ |
 
 ### Documentation
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/) — Must read!
 
-### Important Tools
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+### Tools
+
 | Tool | Purpose |
 |------|---------|
-| Burp Suite | HTTP proxy & web testing |
+| Burp Suite | HTTP proxy and web testing suite |
 | Postman | API testing |
-| curl | Command-line HTTP requests |
-| Browser DevTools | Inspect requests/responses |
+| curl | Command-line HTTP client |
+| Browser DevTools | Inspect requests, responses, and storage |
 
 ### YouTube
+
 - [LiveOverflow](https://www.youtube.com/@LiveOverflow)
 - [John Hammond](https://www.youtube.com/@_JohnHammond)
 
 ---
 
-## 🟡 Intermediate Resources
+## Intermediate Resources
 
 | Resource | Link |
 |----------|------|
@@ -45,11 +50,12 @@ Web exploitation is one of the most common CTF categories and directly maps to r
 
 ---
 
-## 🔧 Key Concepts to Learn
+## Key Concepts
 
 - SQL Injection
-- XSS (Cross-Site Scripting)
-- CSRF
-- Directory Traversal
-- File Upload Vulnerabilities
-- Authentication Bypass
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Directory traversal
+- File upload vulnerabilities
+- Authentication bypass
+- Insecure Direct Object References (IDOR)
