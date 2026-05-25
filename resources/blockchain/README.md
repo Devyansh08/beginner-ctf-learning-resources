@@ -1,38 +1,43 @@
-# ⛓️ Blockchain Security Resources
+# Blockchain Security
 
-Blockchain CTF challenges involve smart contract vulnerabilities on Ethereum and other chains.
+Blockchain CTF challenges typically involve exploiting vulnerabilities in Ethereum smart contracts written in Solidity.
 
 ---
 
-## 🟢 Beginner Resources
+## Beginner Resources
 
 ### Platforms
+
 | Platform | Link |
 |----------|------|
 | Ethernaut | https://ethernaut.openzeppelin.com |
 | Damn Vulnerable DeFi | https://www.damnvulnerabledefi.xyz |
 
 ### Documentation
+
 | Resource | Link |
 |----------|------|
-| Ethereum Docs | https://ethereum.org/en/developers/docs/ |
-| Solidity Docs | https://docs.soliditylang.org |
+| Ethereum Developer Docs | https://ethereum.org/en/developers/docs/ |
+| Solidity Documentation | https://docs.soliditylang.org |
 
-### Important Tools
+### Tools
+
 | Tool | Purpose |
 |------|---------|
-| Remix IDE | Browser-based Solidity IDE |
-| MetaMask | Ethereum wallet |
+| Remix IDE | Browser-based Solidity development environment |
+| MetaMask | Ethereum browser wallet |
 | Etherscan | Blockchain explorer |
 
 ### YouTube
-- [Patrick Collins Solidity Course](https://www.youtube.com/@PatrickAlphaC)
+
+- [Patrick Collins](https://www.youtube.com/@PatrickAlphaC) — Solidity and smart contract development
 
 ---
 
-## 🔧 Key Concepts to Learn
+## Key Concepts
 
-- Solidity basics
-- Smart contract vulnerabilities (reentrancy, overflow)
-- Reading blockchain transactions
-- ABI encoding/decoding
+- Solidity syntax and contract structure
+- Common vulnerabilities: reentrancy, integer overflow, access control
+- Reading and interpreting blockchain transactions
+- ABI encoding and decoding
+- Gas and transaction mechanics
