@@ -1,56 +1,63 @@
-# 🤝 Contributing to Beginner CTF Learning Resources
+# Contributing
 
-Thank you for considering contributing! This project thrives on community input.
+Thank you for your interest in contributing to this resource collection. Contributions are welcome and appreciated.
 
 ---
 
 ## How to Contribute
 
-### Adding a New Resource
+### Adding a Resource
+
 1. Fork this repository
 2. Navigate to the relevant category folder under `resources/`
-3. Add your resource in the correct section (Beginner/Intermediate)
-4. Follow the existing table format
-5. Submit a Pull Request with a brief description
+3. Add your resource following the existing table format
+4. Ensure the resource is free or freemium and beginner-accessible
+5. Open a pull request with a short description of what you added
 
 ### Reporting Issues
-- Use GitHub Issues to report broken links or outdated resources
-- Label issues appropriately (`broken-link`, `outdated`, `new-resource`)
+
+Use GitHub Issues to report:
+- Broken or outdated links
+- Incorrect information
+- Missing important resources
+
+Apply the appropriate label when opening an issue: `broken-link`, `outdated`, or `new-resource`.
 
 ---
 
 ## Guidelines
 
-- Only add **free** or **freemium** resources
-- Resources must be **beginner-friendly** or clearly labeled intermediate
-- No affiliate links
-- Verify links are working before submitting
-- Keep descriptions concise
+- Only add resources that are free or have a meaningful free tier
+- Verify that all links are working before submitting
+- Keep descriptions concise and factual
+- Do not include affiliate links
 
 ---
 
-## Pull Request Format
+## Pull Request Template
 
 ```
-## What does this PR add?
-[Brief description]
+## Summary
+[Describe what this PR adds or changes]
 
 ## Category
-[e.g., Cryptography / Web Security]
+[e.g., Cryptography, Web Security]
 
 ## Resource Type
-[ ] Platform
-[ ] Tool
-[ ] YouTube Channel
-[ ] GitHub List
-[ ] Course
+- [ ] Platform
+- [ ] Tool
+- [ ] YouTube channel
+- [ ] Course
+- [ ] Reference list
 
-## Link verified working?
-[ ] Yes
+## Checklist
+- [ ] Link is working
+- [ ] Resource is free or freemium
+- [ ] Follows existing formatting
 ```
 
 ---
 
 ## Code of Conduct
 
-Be respectful. This is a learning community. All skill levels are welcome.
+Be respectful and constructive. This is a learning community and all experience levels are welcome.
