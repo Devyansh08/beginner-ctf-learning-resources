@@ -1,47 +1,53 @@
-# 🔑 Cryptography Resources
+# Cryptography
 
-Cryptography is one of the most common CTF categories. Start with the basics and work your way up.
+Cryptography is one of the most common CTF categories. This section covers platforms, tools, and courses to build your cryptography skills from the ground up.
 
 ---
 
-## 🟢 Beginner Resources
+## Beginner Resources
 
 ### Platforms
+
 | Platform | Link |
 |----------|------|
 | CryptoHack | https://cryptohack.org |
 | PicoCTF Crypto Challenges | https://play.picoctf.org |
 
-### Practice Tools
+### Tools
+
 | Tool | Link |
 |------|------|
-| CyberChef (browser-based decoder) | https://gchq.github.io/CyberChef/ |
-| dCode (cipher solver) | https://www.dcode.fr/en |
+| CyberChef | https://gchq.github.io/CyberChef/ |
+| dCode | https://www.dcode.fr/en |
 
 ### Courses
-- [Khan Academy Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography)
 
-### GitHub Lists
+- [Khan Academy — Cryptography](https://www.khanacademy.org/computing/computer-science/cryptography)
+
+### Reference Lists
+
 - [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography)
 
 ### YouTube
-- [Computerphile](https://www.youtube.com/@Computerphile) — Security concepts explained simply
+
+- [Computerphile](https://www.youtube.com/@Computerphile)
 
 ---
 
-## 🟡 Intermediate Resources
+## Intermediate Resources
 
 | Resource | Link |
 |----------|------|
-| CryptoPals Challenges | https://cryptopals.com |
-| PyCryptodome Docs | https://pycryptodome.readthedocs.io |
+| CryptoPals | https://cryptopals.com |
+| PyCryptodome Documentation | https://pycryptodome.readthedocs.io |
 
 ---
 
-## 🔧 Key Concepts to Learn
+## Key Concepts
 
-- Caesar Cipher, ROT13, Vigenere
-- Base64, Hex encoding/decoding
+- Classical ciphers: Caesar, ROT13, Vigenere
+- Encoding schemes: Base64, Hex, ASCII
 - XOR encryption
-- RSA basics
-- Hash functions (MD5, SHA)
+- RSA fundamentals
+- Hash functions: MD5, SHA-1, SHA-256
+- Symmetric vs asymmetric encryption
