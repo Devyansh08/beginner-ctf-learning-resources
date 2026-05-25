@@ -1,12 +1,13 @@
-# 🔐 General Cybersecurity Foundations
+# General Cybersecurity Foundations
 
-Start here if you're completely new to CTF and cybersecurity.
+Start here if you are new to cybersecurity and CTF competitions. This section covers Linux, Python, and general practice platforms.
 
 ---
 
-## 🐧 Linux & Command Line
+## Linux and Command Line
 
-### Beginner Resources
+### Resources
+
 | Resource | Link |
 |----------|------|
 | Linux Journey | https://linuxjourney.com |
@@ -15,25 +16,28 @@ Start here if you're completely new to CTF and cybersecurity.
 | The Missing Semester (MIT) | https://missing.csail.mit.edu |
 
 ### YouTube
+
 - [NetworkChuck](https://www.youtube.com/@NetworkChuck)
 - [LearnLinuxTV](https://www.youtube.com/@LearnLinuxTV)
 
 ---
 
-## 🐍 Python for CTF
+## Python for CTF
 
-### Beginner Resources
+### Resources
+
 | Resource | Link |
 |----------|------|
-| Automate the Boring Stuff | https://automatetheboringstuff.com |
+| Automate the Boring Stuff with Python | https://automatetheboringstuff.com |
 | Python Official Tutorial | https://docs.python.org/3/tutorial/ |
 | freeCodeCamp Python Course | https://www.youtube.com/watch?v=rfscVS0vtbw |
 
 ---
 
-## 🎯 General CTF Practice Platforms
+## General CTF Practice Platforms
 
 ### Beginner
+
 | Platform | Link |
 |----------|------|
 | PicoCTF | https://picoctf.org |
@@ -41,6 +45,7 @@ Start here if you're completely new to CTF and cybersecurity.
 | OverTheWire | https://overthewire.org/wargames/ |
 
 ### Intermediate
+
 | Platform | Link |
 |----------|------|
 | Root-Me | https://www.root-me.org |
@@ -48,7 +53,7 @@ Start here if you're completely new to CTF and cybersecurity.
 
 ---
 
-## 📚 Awesome GitHub Lists
+## Curated GitHub Lists
 
 - [Awesome CTF](https://github.com/apsdehal/awesome-ctf)
 - [Awesome Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)
