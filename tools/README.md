@@ -1,96 +1,98 @@
-# 🛠️ CTF Toolset Reference
+# Tools Reference
 
-A complete reference of tools used across CTF categories.
+A categorized reference of tools commonly used in CTF competitions.
 
 ---
 
-## By Category
+## Web Security
 
-### 🌐 Web Security
-| Tool | Purpose | Download |
-|------|---------|---------|
-| Burp Suite | HTTP proxy & web testing | https://portswigger.net/burp |
-| Postman | API testing | https://www.postman.com |
-| curl | CLI HTTP requests | Built-in (Linux/Mac) |
-| Browser DevTools | Inspect JS/requests | Built-in (F12) |
-| sqlmap | Automated SQLi testing | https://sqlmap.org |
-| ffuf | Web fuzzer | https://github.com/ffuf/ffuf |
-
-### 🔑 Cryptography
-| Tool | Purpose | Download |
-|------|---------|---------|
-| CyberChef | Encode/decode/transform | https://gchq.github.io/CyberChef/ |
-| hashcat | Hash cracking | https://hashcat.net |
-| John the Ripper | Password cracker | https://www.openwall.com/john/ |
-| dCode | Cipher identifier | https://www.dcode.fr/en |
-
-### 📡 Networking
-| Tool | Purpose | Download |
-|------|---------|---------|
-| Wireshark | Packet capture/analysis | https://www.wireshark.org |
-| nmap | Network scanner | https://nmap.org |
-| netcat | TCP/UDP swiss army knife | Built-in (Linux) |
-| tcpdump | CLI packet capture | Built-in (Linux) |
-
-### ⚙️ Reverse Engineering
-| Tool | Purpose | Download |
-|------|---------|---------|
-| Ghidra | Disassembler/decompiler | https://ghidra-sre.org |
-| GDB | GNU debugger | Built-in (Linux) |
-| x64dbg | Windows debugger | https://x64dbg.com |
-| strings | Extract strings | Built-in (Linux) |
-| file | Identify file type | Built-in (Linux) |
-| ltrace / strace | Library/system call tracer | Built-in (Linux) |
-
-### 🖥️ Digital Forensics
-| Tool | Purpose | Download |
-|------|---------|---------|
-| Wireshark | PCAP analysis | https://www.wireshark.org |
-| Autopsy | Disk forensics | https://www.autopsy.com |
-| binwalk | Firmware/binary analysis | https://github.com/ReFirmLabs/binwalk |
-| steghide | Steganography | https://steghide.sourceforge.net |
-| foremost | File carving | apt install foremost |
-| exiftool | Metadata extraction | https://exiftool.org |
-| Volatility | Memory forensics | https://volatilityfoundation.org |
-| zsteg | PNG/BMP stego | https://github.com/zed-0xff/zsteg |
-
-### 🔍 OSINT
-| Tool | Purpose | Download |
-|------|---------|---------|
-| exiftool | File metadata | https://exiftool.org |
-| Sherlock | Username search | https://github.com/sherlock-project/sherlock |
-| Maltego | Link analysis | https://www.maltego.com |
-| theHarvester | Email/domain recon | https://github.com/laramies/theHarvester |
-
-### ⛓️ Blockchain
 | Tool | Purpose | Link |
 |------|---------|------|
-| Remix IDE | Solidity IDE | https://remix.ethereum.org |
-| MetaMask | Ethereum wallet | https://metamask.io |
-| Etherscan | Blockchain explorer | https://etherscan.io |
-| Foundry | Smart contract toolkit | https://getfoundry.sh |
+| Burp Suite | HTTP proxy and web testing suite | https://portswigger.net/burp |
+| sqlmap | Automated SQL injection testing | https://sqlmap.org |
+| ffuf | Web fuzzer for directories and parameters | https://github.com/ffuf/ffuf |
+| curl | Command-line HTTP client | Built-in on Linux/macOS |
+| Postman | API testing and exploration | https://www.postman.com |
 
-### 🐍 General / Scripting
+## Cryptography
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| CyberChef | Encode, decode, and transform data | https://gchq.github.io/CyberChef/ |
+| hashcat | GPU-accelerated hash cracking | https://hashcat.net |
+| John the Ripper | Password hash cracker | https://www.openwall.com/john/ |
+| dCode | Identify and solve classical ciphers | https://www.dcode.fr/en |
+
+## Networking
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Wireshark | Packet capture and protocol analysis | https://www.wireshark.org |
+| nmap | Network scanning and service detection | https://nmap.org |
+| netcat | TCP/UDP data transfer utility | Built-in on Linux |
+| tcpdump | Command-line packet capture | Built-in on Linux |
+
+## Reverse Engineering
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Ghidra | Disassembler and decompiler | https://ghidra-sre.org |
+| GDB | GNU debugger | Built-in on Linux |
+| x64dbg | Windows debugger | https://x64dbg.com |
+| strings | Extract printable strings from binaries | Built-in on Linux |
+| ltrace | Library call tracer | Built-in on Linux |
+| strace | System call tracer | Built-in on Linux |
+
+## Digital Forensics
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Wireshark | PCAP analysis | https://www.wireshark.org |
+| Autopsy | Disk forensics platform | https://www.autopsy.com |
+| Volatility | Memory forensics framework | https://volatilityfoundation.org |
+| binwalk | Firmware and binary analysis | https://github.com/ReFirmLabs/binwalk |
+| steghide | Steganography tool | https://steghide.sourceforge.net |
+| foremost | File carving | apt install foremost |
+| exiftool | Metadata extraction | https://exiftool.org |
+| zsteg | PNG and BMP steganography analysis | https://github.com/zed-0xff/zsteg |
+
+## OSINT
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| exiftool | File and image metadata extraction | https://exiftool.org |
+| Sherlock | Username search across platforms | https://github.com/sherlock-project/sherlock |
+| theHarvester | Email and domain reconnaissance | https://github.com/laramies/theHarvester |
+| Maltego | Visual link analysis | https://www.maltego.com |
+
+## Blockchain
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Remix IDE | Browser-based Solidity IDE | https://remix.ethereum.org |
+| Foundry | Smart contract development toolkit | https://getfoundry.sh |
+| Etherscan | Blockchain explorer | https://etherscan.io |
+| MetaMask | Ethereum browser wallet | https://metamask.io |
+
+## General
+
 | Tool | Purpose |
 |------|---------|
-| Python 3 | Scripting & automation |
-| pwntools | CTF exploit library |
-| Linux Terminal | Everything |
+| Python 3 | Scripting and exploit automation |
+| pwntools | CTF exploit development library |
+| Linux terminal | Foundation for nearly all CTF work |
 
 ---
 
-## 🚀 Quick Install Script (Linux/Kali)
+## Quick Install (Debian/Ubuntu/Kali)
 
 ```bash
-# Update system
-sudo apt update && sudo apt upgrade -y
+# System tools
+sudo apt update
+sudo apt install -y nmap netcat wireshark binwalk foremost steghide exiftool gdb ltrace strace
 
-# Essential tools
-sudo apt install -y nmap netcat wireshark binwalk foremost steghide exiftool gdb ltrace strace strings
-
-# Python tools
+# Python libraries
 pip3 install pwntools pycryptodome requests
 
-# Ghidra (download separately)
-# https://ghidra-sre.org
+# Ghidra — download from https://ghidra-sre.org
 ```
