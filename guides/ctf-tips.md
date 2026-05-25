@@ -1,84 +1,87 @@
-# 💡 General CTF Tips & Tricks
+# CTF Tips and Tricks
 
-Hard-won tips from experienced CTF players.
-
----
-
-## 🧠 Mindset
-
-- **Don't give up too fast** — most challenges are solvable with the right approach
-- **Google everything** — CTF skills are about knowing what to search
-- **Write writeups** — documenting solutions reinforces learning
-- **Collaborate** — CTF is a team sport
+Practical tips collected from experienced CTF players.
 
 ---
 
-## 🔍 Always Check These First
+## General Approach
 
-- [ ] `file` command on every unknown file
-- [ ] `strings` on every binary
-- [ ] `exiftool` on every image
-- [ ] Page source (Ctrl+U) on every web challenge
-- [ ] HTTP headers and cookies
-- [ ] Check for hidden directories (`/robots.txt`, `/.git/`)
+- Read the challenge description multiple times — the hint is usually there
+- Do not spend more than 30 minutes stuck without searching for related writeups
+- Document everything you try, even dead ends
+- Writing solution writeups after a challenge significantly reinforces learning
 
 ---
 
-## 🚩 Flag Format Hints
+## First Steps Checklist
 
-Most CTFs use a flag format like:
-- `flag{...}`
-- `CTF{...}`
-- `picoCTF{...}`
+For any unknown file or challenge, run through this checklist before diving deeper:
 
-Always grep for these patterns:
+- [ ] Run `file` on every unknown file
+- [ ] Run `strings` on every binary or unknown file
+- [ ] Run `exiftool` on every image
+- [ ] View page source on every web challenge (Ctrl+U)
+- [ ] Inspect HTTP headers and cookies
+- [ ] Check for common hidden paths: `/robots.txt`, `/.git/`, `/admin`
+
+---
+
+## Flag Format
+
+Most CTFs use a recognizable flag format. Always search for these patterns:
+
 ```bash
 strings file | grep -i "flag{"
 strings file | grep -i "ctf{"
+strings file | grep -iE "[A-Za-z0-9_]+\{[^}]+\}"
 ```
 
 ---
 
-## 🌐 Web Security Tips
+## Web Security
 
-- Always check page source first
-- Try basic SQLi: `' OR 1=1--`
-- Try XSS: `<script>alert(1)</script>`
-- Check cookies in DevTools
-- Use Burp Suite to intercept requests
-
----
-
-## 🔑 Crypto Tips
-
-- Unknown encoding? Try CyberChef "Magic" mode
-- Long string of letters/numbers? Probably Base64 or Hex
-- Repeating pattern? Might be XOR or Vigenere
-- Numbers only? Could be ASCII codes
+- View page source before using any tools
+- Test basic SQL injection: `' OR 1=1--`
+- Test basic XSS: `<script>alert(1)</script>`
+- Check all cookies in browser DevTools
+- Use Burp Suite to intercept and modify requests
+- Look for hidden form fields and commented-out code
 
 ---
 
-## 🖥️ Forensics Tips
+## Cryptography
 
-- Use `binwalk -e` to extract embedded files
-- Use `steghide extract -sf image.jpg` for steganography
-- Open PCAP files in Wireshark, filter by `http` or `ftp`
-- Look for unusual file extensions
-
----
-
-## ⚙️ Reverse Engineering Tips
-
-- Always run `strings` first
-- Use `ltrace` and `strace` before disassembling
-- Look for hardcoded passwords or keys
-- Use Ghidra's decompiler view for C-like pseudocode
+- Unknown encoding? Try CyberChef "Magic" mode first
+- Long string of letters and numbers: likely Base64 or hex
+- Repeating structure: may be XOR or Vigenere cipher
+- Sequence of numbers: may be ASCII character codes
+- Compare cipher lengths to plaintext for classical cipher identification
 
 ---
 
-## 📚 Resources for Getting Unstuck
+## Digital Forensics
 
-- [CTFtime writeups](https://ctftime.org/writeups)
-- [Google: challenge_name CTF writeup]
-- Ask on CTF Discord servers
-- Take a break and come back fresh
+- Use `binwalk -e` to extract files embedded in other files
+- Use `steghide extract -sf image.jpg` to extract hidden steganographic data
+- Open PCAP files in Wireshark and filter by protocol: `http`, `ftp`, `dns`
+- Use `zsteg image.png` for LSB steganography in PNG files
+- Look for unusual file headers or mismatched extensions
+
+---
+
+## Reverse Engineering
+
+- Always run `strings` before opening a disassembler
+- Use `ltrace` and `strace` to observe program behavior before static analysis
+- Look for hardcoded strings, passwords, or keys
+- Use Ghidra's decompiler view for C-like pseudocode output
+- Check for anti-debugging techniques if the program behaves differently under GDB
+
+---
+
+## Resources for Getting Unstuck
+
+- [CTFtime Writeups](https://ctftime.org/writeups) — search by challenge name
+- Google: `challenge_name CTF writeup`
+- Ask in the competition's official Discord server
+- Take a break and return with fresh eyes
