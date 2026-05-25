@@ -1,44 +1,51 @@
-# ⚙️ Reverse Engineering Resources
+# Reverse Engineering
 
-Reverse engineering involves analyzing compiled programs to understand their behavior without source code.
+Reverse engineering involves analyzing compiled binaries to understand their behavior without access to source code.
 
 ---
 
-## 🟢 Beginner Resources
+## Beginner Resources
 
 ### Platforms
+
 | Platform | Link |
 |----------|------|
 | PicoCTF Reverse Engineering | https://play.picoctf.org |
 | Crackmes.one | https://crackmes.one |
 
 ### Courses
-- [OpenSecurityTraining Intro x86](https://opensecuritytraining.info)
 
-### Important Tools
+- [OpenSecurityTraining — Intro x86](https://opensecuritytraining.info)
+
+### Tools
+
 | Tool | Purpose |
 |------|---------|
-| Ghidra | Disassembler & decompiler (free, by NSA) |
-| GDB | GNU debugger |
-| x64dbg | Windows debugger |
-| strings | Extract readable strings from binaries |
+| Ghidra | Open-source disassembler and decompiler |
+| GDB | GNU debugger for Linux binaries |
+| x64dbg | Windows userland debugger |
+| strings | Extract printable strings from binaries |
+| file | Identify file types |
+| ltrace / strace | Trace library and system calls |
 
 ### YouTube
-- [LiveOverflow RE Videos](https://www.youtube.com/@LiveOverflow)
+
+- [LiveOverflow](https://www.youtube.com/@LiveOverflow)
 - [OpenSecurityTraining](https://www.youtube.com/@OpenSecurityTraining2)
 
 ---
 
-## 🟡 Intermediate Resources
+## Intermediate Resources
 
 - [Malware Unicorn RE Workshop](https://malwareunicorn.org/workshops/re102.html)
 
 ---
 
-## 🔧 Key Concepts to Learn
+## Key Concepts
 
-- x86/x64 assembly basics
+- x86 and x64 assembly basics
 - ELF and PE file formats
 - Static vs dynamic analysis
-- Patching binaries
+- Patching and modifying binaries
 - Anti-debugging techniques
+- Calling conventions
