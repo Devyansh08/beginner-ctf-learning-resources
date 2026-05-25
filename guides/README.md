@@ -1,13 +1,9 @@
-# 📖 Guides & Learning Paths
+# Guides
 
-Structured guides to help you go from zero to solving CTF challenges.
-
----
-
-## 📚 Guides in This Folder
+Structured guides to help you progress from beginner to solving CTF challenges independently.
 
 | Guide | Description |
 |-------|-------------|
-| [beginner-workflow.md](beginner-workflow.md) | Step-by-step beginner workflow |
-| [learning-path.md](learning-path.md) | Recommended learning order |
-| [ctf-tips.md](ctf-tips.md) | General CTF tips & tricks |
+| [Learning Path](learning-path.md) | A week-by-week structured learning plan |
+| [Beginner Workflow](beginner-workflow.md) | How to approach a CTF challenge step by step |
+| [CTF Tips](ctf-tips.md) | Practical tips and command references |
