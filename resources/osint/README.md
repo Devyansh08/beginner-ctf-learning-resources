@@ -1,34 +1,38 @@
-# 🔍 OSINT Resources
+# OSINT
 
-Open Source Intelligence (OSINT) involves gathering information from public sources.
+Open Source Intelligence (OSINT) involves gathering and analyzing information from publicly available sources.
 
 ---
 
-## 🟢 Beginner Resources
+## Beginner Resources
 
 ### Platforms
+
 | Platform | Link |
 |----------|------|
 | TryHackMe OSINT Rooms | https://tryhackme.com |
 | OSINT Framework | https://osintframework.com |
 
 ### Tools
+
 | Tool | Purpose |
 |------|---------|
-| exiftool | Extract metadata from files |
-| Sherlock | Find usernames across platforms |
-| Maltego | Visual link analysis |
-| Google Dorks | Advanced Google searches |
+| exiftool | Extract metadata from files and images |
+| Sherlock | Search for usernames across social platforms |
+| Maltego | Visual link analysis and data mapping |
+| Google Dorks | Advanced search operators |
 
-### Websites
+### Reference
+
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
 
 ### YouTube
-- [John Hammond OSINT Videos](https://www.youtube.com/@_JohnHammond)
+
+- [John Hammond](https://www.youtube.com/@_JohnHammond)
 
 ---
 
-## 🟡 Intermediate Resources
+## Intermediate Resources
 
 | Resource | Link |
 |----------|------|
@@ -37,10 +41,11 @@ Open Source Intelligence (OSINT) involves gathering information from public sour
 
 ---
 
-## 🔧 Key Concepts to Learn
+## Key Concepts
 
-- Google Dorking
+- Google dorking and advanced search operators
 - Reverse image search
 - Social media investigation
-- WHOIS lookups
-- Metadata extraction
+- WHOIS and DNS lookups
+- Metadata extraction from files
+- Username enumeration
