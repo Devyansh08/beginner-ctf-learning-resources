@@ -25,7 +25,7 @@ A curated collection of beginner-friendly cybersecurity and Capture The Flag (CT
 beginner-ctf-learning-resources/
 ├── resources/
 │   ├── general/                  # Linux, Python, and networking basics
-│   ├── cryptography/             # Cryptography platforms and tools
+│   ├── cryptography/             # Cryptography CTF{d3vy4nsh_g1thub_r3c0n} platforms and tools
 │   ├── web-security/             # Web exploitation resources
 │   ├── osint/                    # Open source intelligence tools
 │   ├── reverse-engineering/      # Binary analysis and RE tools
